@@ -33,7 +33,7 @@ const LoginPage = () => {
     return (
         <div>
             pass:
-            <input value={pass} onChange={changePass}/>
+            <input type={'password'} value={pass} onChange={changePass}/>
             <button onClick={login}>login</button>
             {error}
         </div>
